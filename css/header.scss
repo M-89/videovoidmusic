@@ -1,0 +1,168 @@
+/*Mobile*/
+
+header {
+	overflow: hidden;
+}
+
+#logo {
+	background-color: $VoidBlack;
+	fill: $VoidWhite;
+	width: 375px;
+	height: 20rem;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#container {
+	background-color: $VoidBlack;
+}
+
+header nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+  	padding: 0;
+}
+
+header nav li {
+	margin: 35px auto;
+	transition: all 0.5s ease 0.1s;
+}
+
+header nav li a {
+	border-radius: 3px;
+	transition: all 0.5s ease 0.1s;
+	display: block;
+}
+
+/*Mobile 2 (Iphone 5/SE)*/
+
+@media screen and(min-width: 320px) and(max-width: 350px) {
+	#logo{
+		width: 335px;
+	}
+	header nav li a {
+		font-size: 1.6rem;
+	}
+}
+
+/*Mobile 3 (Pixel 2)*/
+
+@media screen and(min-width: 411px) {
+	#logo{
+		width: 427px;
+		height: 27rem;
+	}
+}
+
+/*Mobile 4 (Iphone Plus)*/
+
+@media screen and(min-width: 414px) {
+	#logo{
+		width: 414px;
+		height: 27rem;
+	}
+}
+
+/*Tablette*/
+
+@media screen and(min-width: 768px) {
+	#logo{
+		width: 768px;
+		height: 27rem;
+	}
+}
+
+/*Tablette 2*/
+
+@media screen and(min-width: 800px) {
+	#logo{
+		width: 800px;
+		height: 27rem;
+	}
+}
+
+/*Ipad Pro (10.5)*/
+
+@media screen and(min-width: 834px) {
+	#logo {
+	width: 870px;
+	}
+}
+
+/*Ipad Pro (12.9)*/
+
+@media screen and(min-width: 1023px) {
+	#logo {
+	width: 1050px;
+	}
+}
+
+/*Desktop*/
+
+@media screen and(min-width: 1025px) {
+	#logo {
+		width: 1263.4px;
+		height: 600px;
+	}
+	header nav li {
+		padding: 10px;
+		letter-spacing: 3px;
+	}
+	nav {
+		margin-top: 59px;
+	}
+}
+
+/*HiDPi Screen Laptop (1366px)*/
+
+@media screen and(min-width: 1366px) {
+	#logo {
+		margin-left: 7rem;
+	}
+}
+
+@media (hover: hover) {
+  header nav a:hover {
+ 		background: $VoidWhite;
+		border: 0px solid $VoidBlack;
+		border-width: 0px 34px 0px 34px;
+		opacity: 0.9;
+		color: $VoidBlack;
+  	}
+}
+
+/*HiDPi Screen Laptop (1440px)*/
+
+@media screen and(min-width: 1439px) {
+	#logo {
+		margin-left: 9rem;
+	}
+}
+
+@media (hover: hover) {
+  header nav a:hover {
+ 		background: $VoidWhite;
+		border: 0px solid $VoidBlack;
+		border-width: 0px 34px 0px 34px;
+		opacity: 0.9;
+		color: $VoidBlack;
+  	}
+}
+
+/*Large Screen (1920px)*/
+
+@media screen and(min-width: 1919px) {
+	#logo {
+		margin-left: 30rem;
+	}
+}
+
+/*Large Screen 2 (2560px)*/
+
+@media screen and(min-width: 2559px){
+	#logo {
+		margin-left: 60rem;
+	}
+} 

@@ -1,0 +1,72 @@
+footer {
+	padding-top: 40px;
+	margin: $gutter/2.7;
+}
+
+footer nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0;
+  	padding: 0;
+	padding-top: 40px;
+	list-style: none;
+}
+
+footer nav li {
+	margin: auto;
+}
+
+footer i {
+	color: $VoidWhite;
+}
+
+footer nav i {
+	font-size: 3.2rem;
+}
+
+footer nav a:link, a:visited {
+    font-weight: normal;
+}
+
+footer nav li a {
+	display: block;
+}
+
+footer div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+footer div p {
+	font-size: 1.5rem;
+}
+
+#backtotop {
+	text-align: justify;
+}
+
+/*Tablette*/
+
+@media screen and(min-width: 768px) {
+	footer{
+		margin: $gutter;
+	}
+}
+
+/*Desktop*/
+
+@media (hover: hover) {
+	footer nav i:hover {
+		transition: all 0.1s ease 0.2s;
+		background-color: $VoidWhite;
+		border: 12px solid $VoidBlack;
+		border-radius: 12px;
+		opacity: 0.9;
+		color: $VoidBlack;
+		font-size: 4rem;
+  	}
+}

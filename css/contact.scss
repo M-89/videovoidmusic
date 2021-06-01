@@ -1,0 +1,82 @@
+#formmsg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactinputs {
+	width: 25rem;
+	margin: 2rem 0;
+}
+
+textarea {
+	width: 244px;
+	height: 280px;
+}
+
+#message {
+	margin-top: 2rem;
+	border-radius: 2px;
+}
+
+#contactcaptcha {
+	margin-top: 3rem;
+}
+
+#send {
+	color: $VoidBlue;
+	background-color: $VoidWhite;
+	border-radius: 2px;
+	padding: 5px;
+	border: solid 2px $VoidBlue;
+	font-size: 1.8rem;
+ 	margin-top: 2rem;
+ 	width: 25rem;
+ 	transition: all 0.1s ease 0.2s;
+}
+
+#msgsent  {
+	text-align: center;
+}
+
+/*Tablette */
+
+@media screen and(min-width: 768px) {
+	#formmsg{
+  	margin: 0;
+  	display: flex;
+	flex-direction: column;
+    align-items: center;
+	}
+	textarea{
+		width: 40rem;
+	}
+	#send{
+		margin-top: 3rem;
+	}
+}
+
+/*Desktop*/
+
+@media screen and(min-width: 1025px) {
+	#message {
+		width: 55rem;
+		height: 35rem;
+	}
+	#send {
+		font-size: 2.4rem;
+		height: 10rem;
+	}
+	#msgsent {
+		padding-bottom: 20px;
+		font-size: 3rem;
+	}
+}
+
+@media (hover: hover) {
+	#send:hover {
+		background-color: $VoidBlack;
+		color: $VoidWhite;
+		border: solid 2px $VoidWhite;
+  	}
+}

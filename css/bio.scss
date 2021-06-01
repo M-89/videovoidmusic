@@ -1,0 +1,39 @@
+#biocontainer1 {
+	display: flex;
+	align-items: center;
+}
+
+#biocontainer2 {
+	display: flex;
+	align-items: center;
+}
+
+#imgbio2 {
+	margin: $gutter/2;
+}
+
+#imgbio1, #imgbio2 {
+	border: solid  rgba(239, 235, 235, 0.1) 3px;
+	background-clip: padding-box;
+	display: none;
+	font-size: 0;
+}
+
+#funride {
+	padding-top: 7px;
+	text-align: center;
+}
+
+/*Desktop*/
+
+@media screen and(min-width: 1025px) {
+	#imgbio1, #imgbio2 {
+		display: block;
+	}
+	#pimgbio1 {
+		margin-left: $gutter/2;
+	}
+	#bio2002p {
+		padding-bottom: 10px;
+	}
+}

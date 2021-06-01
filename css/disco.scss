@@ -1,0 +1,148 @@
+#discoh1 {
+	letter-spacing: 0.5rem;
+}
+
+li {
+	margin: 0;
+}
+
+#disconav {
+	list-style: none;
+	text-align: center;
+    margin-right: 4.6rem;
+}
+
+#disconav li {
+	transition: all 0.6s ease-out 0.2s;
+}
+
+.releases {
+	list-style-type: none;
+}
+
+.typesofreleases {
+	font-size: 2.6rem;
+}
+
+.remixessetc {
+	list-style: none;
+}
+
+.iframebc {
+	width: 270px;
+	height: 540px;
+	margin-top: 10px;
+	border: none;
+}
+
+.iframe3trackeps {
+	width: 270px;
+	height: 500px;
+	margin-top: 10px;
+	border: none;
+}
+
+.iframe2tracksingles {
+	width: 270px;
+	height: 470px;
+	margin-top: 10px;
+	border: none;
+}
+
+.iframesingles {
+	width: 270px;
+	height: 382px;
+	margin-top: 10px;
+	border: none;
+}
+
+#interactp{
+    margin-top: -139px;
+}
+
+/*Mobile 2 (Iphone 5/SE)*/
+
+@media screen and(min-width: 320px) and(max-width: 350px) {
+	.iframebc {
+		width: 200px;
+		height: 382px;
+	}
+	#interactp{
+    margin-top: -48px;
+	}
+}
+
+/*Tablette*/
+
+@media screen and(min-width: 768px) {
+	#discomain{
+		margin: $gutter;
+	}
+	#discoh1{
+    	letter-spacing: 2.5rem;
+    }
+    .iframebc{
+    	margin-left: $gutter*3;
+    	width: 340px;
+    }
+    #interactp{
+    	margin-top: -90px;
+    }
+}
+
+/*Desktop*/
+
+@media screen and(min-width: 1025px) {
+	#discoh1 {
+		letter-spacing: 4rem;
+	  	font-size: 7rem;
+	  	padding: 60px 0px;
+	  	margin-top: 30px;
+	}
+	.containersreleases {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+	.iframebc, .releasesp {
+		margin: auto;
+	}
+	.iframebc {
+		margin-bottom: 2rem;
+	}
+	#disconav {
+    	margin-right: 2.5rem;
+	}
+	#disconav li {
+		margin: 22px 0px 22px 0px;
+		padding: 10px;
+	}
+	#Joyremixed {
+		margin-bottom: 3.5rem;
+	}
+	@media (hover: hover) {
+	#disconav li:hover {
+ 		background: $VoidWhite;
+		border: 5rem dashed $VoidBlack;
+		border-width: 0px 45rem 0px 45rem;
+		opacity: 0.9;
+		color: $VoidBlack;
+		}
+	}
+}
+
+@media screen and(min-width: 1365px) {
+	@media (hover: hover) {
+	#disconav li:hover {
+		border-width: 0px 44rem 0px 44rem;
+		}
+	}
+}
+
+/*Large screen (1920px)*/
+
+@media screen and(min-width: 1919px) {
+	#interactp{
+    margin-top: 0;
+	}
+}

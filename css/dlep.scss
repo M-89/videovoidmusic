@@ -1,0 +1,48 @@
+#dlepmain{
+	margin: 0;
+}
+
+#downloadEP {
+	color: $VoidBlue;
+	display: block;
+	background-color: $VoidWhite;
+	transition: all 0.1s ease 0.2s;
+	border-radius: 2px;
+	padding: 22px;
+	border: solid 2px $VoidBlue;
+	font-size: 1.8rem;
+ 	margin-top: 2rem;
+ 	margin: 0 1rem 0 1rem;
+ 	text-align: center;
+}
+
+
+/*Tablette*/
+
+@media screen and(min-width: 768px) {
+	#dlepmain{
+		margin: $gutter;
+	}
+}
+
+/*Desktop*/
+
+@media screen and(min-width: 1025px) {
+		#downloadEP {
+		font-size: 3.5rem;
+		line-height: 4rem;
+		width: 62rem;
+		border-radius: 5px;
+		width: 52rem;
+		text-align: center;
+		margin: auto;
+	}
+}
+
+@media (hover: hover) {
+	#downloadEP:hover {
+		background-color: $VoidBlack;
+		color: $VoidWhite;
+		border: solid 2px $VoidWhite;
+  	}
+}
